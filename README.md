@@ -74,9 +74,9 @@ Scene text recognition attention maps:
 
 ![](imgs/attention_maps_gt_1.jpg)
 ![](imgs/attention_maps_gt_8454.jpg)
-![](imgs/attention_maps_gt_8459.jpg)
-![](imgs/attention_maps_gt_8473.jpg)
-![](imgs/attention_maps_gt_8601.jpg)
-![](imgs/attention_maps_gt_8622.jpg)
-![](imgs/attention_maps_gt_918.jpg)
+<!-- ![](imgs/attention_maps_gt_8459.jpg) -->
+<!-- ![](imgs/attention_maps_gt_8473.jpg) -->
+<!-- ![](imgs/attention_maps_gt_8601.jpg) -->
+<!-- ![](imgs/attention_maps_gt_8622.jpg) -->
+<!-- ![](imgs/attention_maps_gt_918.jpg) -->
 ![](imgs/attention_maps_gt_94.jpg)
