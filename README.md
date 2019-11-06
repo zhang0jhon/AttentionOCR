@@ -13,6 +13,7 @@ Note that our text recognition algorithm not only recognize Latin and Non-Latin 
 python 3
 tensorflow-gpu 1.14
 tensorpack 0.9.8
+pycocotools
 ```
 
 ## Usage
