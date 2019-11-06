@@ -79,4 +79,4 @@ Scene text recognition attention maps:
 <!-- ![](imgs/attention_maps_gt_8601.jpg) -->
 <!-- ![](imgs/attention_maps_gt_8622.jpg) -->
 <!-- ![](imgs/attention_maps_gt_918.jpg) -->
-![](imgs/attention_maps_gt_94.jpg)
+<!-- ![](imgs/attention_maps_gt_94.jpg) -->
