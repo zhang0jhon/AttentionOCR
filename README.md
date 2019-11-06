@@ -39,6 +39,12 @@ Then you can modify your gpu lists in config.py for specified gpus and then run:
 ```
 python train.py
 ```
+You can visualize your training steps via tensorboard:
+```
+tensorboard --logdir='./checkpoint'
+```
+![](imgs/loss.png)
+
 Use ICDAR2019-LSVT, ICDAR2019-ArT, ICDAR2019-ReCTS for default training, you can change it with your own training data.
 
 ### Evaluation
