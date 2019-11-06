@@ -34,7 +34,8 @@ $(base_dir)/icdar2017rctw
 
 ### Train
 
-You can modify your gpu lists in config.py for specified gpus and then run:
+First, download pretrained [__inception v4 checkpoint__](https://github.com/tensorflow/models/tree/master/research/slim) and put it in ./pretrain folder. 
+Then you can modify your gpu lists in config.py for specified gpus and then run:
 ```
 python train.py
 ```
