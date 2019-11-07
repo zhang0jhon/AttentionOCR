@@ -92,6 +92,7 @@ Scene text recognition attention maps:
 ## Docker
 
 I upload ICDAR2019 scene text recognition model include text detection and recognition to [__Docker Hub__](https://hub.docker.com/repository/docker/zhang0jhon/demo)
+
 After [__nvidia-docker__](https://github.com/NVIDIA/nvidia-docker) installed, run:
 
 ```
