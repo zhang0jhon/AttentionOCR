@@ -88,3 +88,24 @@ Scene text recognition attention maps:
 <!-- ![](imgs/attention_maps_gt_8622.jpg) -->
 <!-- ![](imgs/attention_maps_gt_918.jpg) -->
 <!-- ![](imgs/attention_maps_gt_94.jpg) -->
+
+## Docker
+
+I upload ICDAR2019 scene text recognition model include text detection and recognition to [__Docker Hub__](https://hub.docker.com/repository/docker/zhang0jhon/demo)
+After [__nvidia-docker__](https://github.com/NVIDIA/nvidia-docker) installed, run:
+
+```
+docker pull zhang0jhon/demo:ocr
+docker run --runtime=nvidia -p 5000:5000 -it zhang0jhon/demo:ocr bash
+cd /ocr/ocr
+python flaskapp.py
+```
+
+Then you can test with your data via browser:
+
+```
+$(localhost or remote server ip address):5000
+```
+![](imgs/web.png)
+
+**Note that the model in docker container is slightly different from the recognition model trained from this updated repository.**
