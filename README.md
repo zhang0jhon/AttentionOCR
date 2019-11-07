@@ -109,4 +109,4 @@ $(localhost or remote server ip address):5000
 ```
 ![](imgs/web.png)
 
-**Note that the model in docker container is slightly different from the recognition model trained from this updated repository.**
+**Note that the competition model in docker container is slightly different from the recognition model trained from this updated repository.**
