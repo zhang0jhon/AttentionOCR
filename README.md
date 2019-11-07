@@ -110,6 +110,6 @@ $(localhost or remote server ip address):5000
 ```
 ![](imgs/web.png)
 
-You can also test from the website [__demo.sceneinception.com__](demo.sceneinception.com)
+You can also test from the [__website__](demo.sceneinception.com)
 
 **Note that the competition model in docker container is slightly different from the recognition model trained from this updated repository.**
