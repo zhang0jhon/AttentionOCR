@@ -27,9 +27,11 @@ def get_dict(path=os.path.join(currentdir, 'label_dict/icdar_labels.txt'), add_s
             idx, label = int(m.group(1)), m.group(2)
             label_dict[idx] = label 
         if add_space:
-            label_dict[idx+1] = ' ' 
+            idx = idx + 1
+            label_dict[idx] = ' ' 
         if add_eos:
-            label_dict[idx+2] = 'EOS' 
+            idx = idx + 1
+            label_dict[idx] = 'EOS' 
     return label_dict
 
 
