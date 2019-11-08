@@ -90,6 +90,8 @@ Scene text recognition attention maps:
 <!-- ![](imgs/attention_maps_gt_918.jpg) -->
 <!-- ![](imgs/attention_maps_gt_94.jpg) -->
 
+To learn more about attention mechanism, please refer to [Attention Mechanism in Deep Learning](reference/Attention_Mechanism_in_Deep_Learning.pdf). 
+
 ## Docker
 
 I upload ICDAR2019 scene text recognition model include text detection and recognition to [__Docker Hub__](https://hub.docker.com/repository/docker/zhang0jhon/demo).
