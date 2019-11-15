@@ -125,7 +125,7 @@ def eval(args, filenames, polygons, labels, label_dict=cfg.label_dict):
         total_num += 1
         Normalized_ED += sim
 
-    print("total_num: %d, N.E.D: %.4f, average time: %.4f" % (total_num, Normalized_ED/total_num, total_time/total_num))
+    print("total_num: %d, 1-N.E.D: %.4f, average time: %.4f" % (total_num, Normalized_ED/total_num, total_time/total_num))
 
 
 if __name__ == '__main__':
