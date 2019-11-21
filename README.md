@@ -100,10 +100,11 @@ After [__nvidia-docker__](https://github.com/NVIDIA/nvidia-docker) installed, ru
 
 ```
 docker pull zhang0jhon/demo:ocr
-docker run --runtime=nvidia -p 5000:5000 -it zhang0jhon/demo:ocr bash
+docker run -it -p 5000:5000 --gpus all zhang0jhon/demo:ocr bash
 cd /ocr/ocr
 python flaskapp.py
 ```
+<!-- docker run --runtime=nvidia -p 5000:5000 -it zhang0jhon/demo:ocr bash -->
 
 Then you can test with your data via browser:
 
