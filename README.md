@@ -34,6 +34,8 @@ $(base_dir)/rects
 $(base_dir)/icdar2017rctw
 ```
 
+You can also synthesize text recognition data for data augmentation, please refer to [__TextRecognitionDataGenerator__](https://github.com/Belval/TextRecognitionDataGenerator).
+
 ### Train
 
 First, download pretrained [__inception v4 checkpoint__](https://github.com/tensorflow/models/tree/master/research/slim) and put it in ./pretrain folder. 
