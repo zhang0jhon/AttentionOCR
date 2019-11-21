@@ -34,7 +34,11 @@ $(base_dir)/rects
 $(base_dir)/icdar2017rctw
 ```
 
-You can also synthesize text recognition data for data augmentation, please refer to [__TextRecognitionDataGenerator__](https://github.com/Belval/TextRecognitionDataGenerator).
+You can also synthesize text recognition data for data augmentation, please refer to [__TextRecognitionDataGenerator__](https://github.com/Belval/TextRecognitionDataGenerator). It is helpful for long text recognition and attention-based language model because you can directly synthesize text images from NLP corpus. Then you should rewrite dataset.py for synthetic text dataset.
+
+```
+$(base_dir)/synthetic_text
+```
 
 ### Train
 
