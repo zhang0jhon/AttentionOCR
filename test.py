@@ -96,7 +96,7 @@ def test(args):
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         height, width = image.shape[:2]
 
-        points = [[0,0], [0,width-1], [height-1,width-1], [height-1,0]]
+        points = [[0,0], [width-1,0], [width-1,height-1], [0,height-1]]
 
         image = preprocess(image, points, cfg.image_size)
         image = np.expand_dims(image, 0)
