@@ -6,7 +6,7 @@ This is the **ranked No.1** tensorflow based scene text spotting algorithm on [_
 
 Scene text detection algorithm is modified from [__Tensorpack FasterRCNN__](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN), and we only open source code in this repository for scene text recognition. I upload ICDAR2019 ArT competition model to docker hub, please refer to [Docker](#Docker). For more details, please refer to our [__arXiv technical report__](https://arxiv.org/abs/1912.04561).
 
-Note that our text recognition algorithm not only recognizes Latin and Non-Latin characters, but also supports horizontal and vertical text recognition in one model. It is convenient for multi-lingual arbitrary-shaped text recognition.
+Our text recognition algorithm not only recognizes Latin and Non-Latin characters, but also supports horizontal and vertical text recognition in one model. It is convenient for multi-lingual arbitrary-shaped text recognition.
 
 **Note that the competition model in docker container as described in our technical report is slightly different from the recognition model trained from this updated repository.**
 
