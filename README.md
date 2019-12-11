@@ -8,7 +8,7 @@ Scene text detection algorithm is modified from [__Tensorpack FasterRCNN__](http
 
 Our text recognition algorithm not only recognizes Latin and Non-Latin characters, but also supports horizontal and vertical text recognition in one model. It is convenient for multi-lingual arbitrary-shaped text recognition.
 
-**Note that the competition model in docker container as described in our technical report is slightly different from the recognition model trained from this updated repository.**
+**Note that the competition model in docker container as described in [__our technical report__](https://arxiv.org/abs/1912.04561) is slightly different from the recognition model trained from this updated repository.**
 
 ## Dependencies
 
